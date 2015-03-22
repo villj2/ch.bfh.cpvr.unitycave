@@ -1,0 +1,199 @@
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4475]
+    Renderer: NVIDIA GeForce GTX 760
+    Vendor:   NVIDIA
+    VRAM:     1985 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\MiddleVR_dotNet.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\MiddleVR_dotNet.dll into Unity Child Domain
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\MiddleVR_Unity3D.dll (this message is harmless)
+Loading D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\MiddleVR_Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.038 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\System.dll (this message is harmless)
+[ ] 2015-03-22--22-14-49
+[ ] Changed LogLevel to 2.
+[ ] PATH = 'C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\X-Rite\Devices\Services;C:\Program Files (x86)\X-Rite\Devices\Lib;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MiddleVR\bin;C:\Program Files (x86)\MiddleVR\bin64'.
+[>] Initializing MiddleVR Build 1.6.0.f4 (Gisele) [ef59da1-201503091552].
+[ ] Executable path: 'D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval.exe'.
+[ ] MiddleVR library path: 'C:\Program Files (x86)\MiddleVR\bin\MiddleVR.dll'.
+[ ] Working directory: 'D:\Development\Unity\MiddleVR Test Unity4.6\bin'.
+[ ] Temp folder: 'C:\Users\Julien\AppData\Local\Temp\MiddleVR'.
+[ ] System description:
+
+Computer name: 'VILL-PC'.
+User name: 'Julien'.
+System Directory: 'C:\Windows\system32'.
+Windows Directory: 'C:\Windows'.
+Using Windows version 6.2 (9200).
+NVidia drivers: 34475.
+Number of detected logical processors: 8.
+
+[ ] Initialized LM-X license system. 
+[ ] No license found.
+[+] Changing log file to 'C:\Users\Julien\AppData\Local\Temp\MiddleVR\MiddleVR_UnityPlayer_Log.txt'.
+[ ] MiddleVR export version 1.6.0.
+[>] Command line arguments to apply:
+[ ]   [0]: 'D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval.exe'.
+[ ]   [1]: '--config'.
+[ ]   [2]: 'C:\Program Files (x86)\MiddleVR\data\Config\Stereo\SimpleStereoPassive.vrx'.
+[ ]   [3]: '-popupwindow'.
+[<] End of command line arguments.
+[+] Signature OK for MiddleVR Free edition (1.6.0.f4). Licensee: NoLicensee
+[ ] ** Export edition switching to MiddleVR Free (Made with Free or Trial version) **
+[ ] ** An application exported with a MiddleVR Free edition or a Trial version will have a watermark **
+[ ] ** To remove the watermark export the application on a computer with a valid MiddleVR license (HMD, Academic or Pro). **
+[ ] Trying to checkout 'MVR-Pro-Player-Unity'...
+[ ] License 'MVR-Pro-Player-Unity' not present.
+[ ] Trying to checkout 'MVR-Academic-Player-Unity'...
+[ ] License 'MVR-Academic-Player-Unity' not present.
+[ ] Trying to checkout 'MVR-HMD-Player-Unity'...
+[ ] License 'MVR-HMD-Player-Unity' not present.
+[ ] Failed to checkout a license. Continuing with Free version.
+[ ] Unity version 4.6.2f1 - Free.
+[ ] Built with MiddleVR 'Free' edition.
+[ ] Default config file is: 'C:/Program Files (x86)/MiddleVR/data/Config/Misc/Default.vrx'.
+[ ] Overriding config file with: 'C:\Program Files (x86)\MiddleVR\data\Config\Stereo\SimpleStereoPassive.vrx'.
+[ ] Unity Loading Config: 'C:\Program Files (x86)\MiddleVR\data\Config\Stereo\SimpleStereoPassive.vrx'.
+[ ] Showing splashscreen.
+[>] Loading config file: 'C:\Program Files (x86)\MiddleVR\data\Config\Stereo\SimpleStereoPassive.vrx'.
+[ ] Changed LogLevel to 2.
+[ ] Configuration version: 1.6.0
+[ ] Set world scale to: 1.
+[<] Successfully finished reading 'C:\Program Files (x86)\MiddleVR\data\Config\Stereo\SimpleStereoPassive.vrx'.
+
+=== System dump ===
+
+== Available Displays ==
+- Display '\\.\DISPLAY1' ( NVIDIA GeForce GTX 760 ): 1920x1080 (0+0) 32 bits @ 60 hz. Primary screen.
+
+== Window geometry: 1920x1080, 0+0, windowed, no borders, show mouse cursor, VSync OFF..
+
+== Viewports ==
+- Viewport 'Viewport0': 1920x1080, 0+0, 'CameraStereo0'. Stereo ON, Compressed Side-by-Side.
+
+
+== Nodes ==
++ None [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+  + VRSystemCenterNode [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+    + HandNode [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+    + HeadNode [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+      + CameraStereo0 [CameraStereo] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
+        + CameraStereo0.Left [Camera] : L: -0.0325,0,0. Y: -0, P: 0, R: -0. No tracker.
+        + CameraStereo0.Right [Camera] : L: 0.0325,0,0. Y: -0, P: 0, R: -0. No tracker.
+
+
+== Cameras ==
+- CameraStereo0: Stereo Camera. Use viewport aspect ratio.
+- CameraStereo0.Left: Use viewport aspect ratio.
+- CameraStereo0.Right: Use viewport aspect ratio.
+
+== Device Manager ==
+
+ - Nb devices : 3
+  - Keyboard [ Keyboard ] from DirectInput Driver
+  - Mouse [ Mouse ] from DirectInput Driver
+  - Wand0 [ Wand ] 
+
+ - Nb drivers : 1
+  - DirectInput Driver
+
+== Wand : Wand0 == 
+
+ - Axis : Undefined.
+ - Buttons : Undefined.
+
+== Scripts ==
+
+
+== Cluster : SoftSwapLock: ON. NVidiaSwapLock: OFF. ForceOpenGLConversion: OFF. DisableVSyncOnServer: ON. 
+
+
+=== End of System dump ===
+
+
+[+] MiddleVR: Config loaded successfully: 'C:\Program Files (x86)\MiddleVR\data\Config\Stereo\SimpleStereoPassive.vrx'.
+[ ] Unity: Current quality level: 3
+[ ] Unity: In this project's current quality level, VSync is: 0
+[ ] Camera 'CameraStereo0.Left' rendering path: Forward.
+[ ] Cluster. Disabling: 'CameraStereo0.Left'.
+[ ] Camera 'CameraStereo0.Right' rendering path: Forward.
+[ ] Cluster. Disabling: 'CameraStereo0.Right'.
+[ ] Compressing Side-by-side.
+[ ] Unity: Disabling VSync.
+[~] Interaction 'InteractionNavigationWandJoystick' is already active.
+[~] Interaction 'InteractionNavigationGrabWorld' is already active.
+[~] Interaction 'InteractionNavigationElastic' is already active.
+[~] Interaction 'InteractionManipulationRay' is already active.
+[~] Interaction 'InteractionVirtualHandGogo' is already active.
+[~] Interaction 'InteractionManipulationHomer' is already active.
+NullReferenceException: Object reference not set to an instance of an object
+  at VRFPSInputController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Platform assembly: D:\Development\Unity\MiddleVR Test Unity4.6\bin\medieval_Data\Managed\Boo.Lang.dll (this message is harmless)
+[ ] Navigation Elastic deactivated.
+[~] Interaction 'InteractionNavigationWandJoystick' is already active.
+[~] Interaction 'InteractionNavigationWandJoystick' is already active.
+[ ] Navigation Joystick activated.
+[ ] Manipulation Homer deactivated.
+[~] Interaction 'InteractionManipulationRay' is already active.
+[~] Interaction 'InteractionManipulationRay' is already active.
+[ ] Manipulation Ray activated.
+[ ] Virtual Hand Gogo deactivated.
+[~] vrWand::IsButtonToggled: no buttons defined.
+[~] vrWand::IsButtonPressed: no buttons defined.
+[+] AttachToNode: VRWand attached to : HandNode
+[>] Set window geometry... 
+[ ]  ... to: 1920x1080 (0 + 0)
+[<] Set window geometry done. 
+[ ] FPS: 0.646133
+[ ] If the application is stuck here and you're using Quad-buffer active stereoscopy, make sure that in the Player Settings of Unity, the option 'Run in Background' is checked.
+[ ] FPS: 940.559
+[ ] FPS: 697.253
+[ ] FPS: 1084.16
+[ ] FPS: 701.876
+[ ] FPS: 913.089
+[ ] FPS: 705.541
+[ ] FPS: 672.04
+[ ] FPS: 663.224
+[ ] FPS: 662.026
+[ ] FPS: 661.352
+[ ] FPS: 661.492
+[ ] FPS: 662.395
+[ ] FPS: 645.768
+[ ] FPS: 657.925
+[ ] FPS: 665.263
+[ ] FPS: 669.883
+[ ] FPS: 1076.84
+[ ] FPS: 1086.37
+[ ] FPS: 1088
+[ ] FPS: 1082.57
+[ ] FPS: 727.007
+[ ] FPS: 741.503
+[ ] FPS: 1067.26
+[ ] FPS: 780.235
+[ ] FPS: 779.101
+[ ] FPS: 1084.94
+[ ] Unity says we're quitting.
+[ ] Quitting after 28.565 seconds and 21712 frames.
+[<] Shutting down MiddleVR.
