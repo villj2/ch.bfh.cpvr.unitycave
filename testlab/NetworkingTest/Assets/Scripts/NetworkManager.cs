@@ -3,6 +3,8 @@ using System.Collections;
 
 public class NetworkManager : MonoBehaviour {
 
+	public GameObject playerPrefab;
+
 	private const string typeName = "UniqueGameName";
 	private const string gameName = "RoomName";
 
@@ -20,7 +22,7 @@ public class NetworkManager : MonoBehaviour {
 
 	private void StartServer()
 	{
-		MasterServer.ipAddress = "127.0.0.1";
+		//MasterServer.ipAddress = "127.0.0.1";
 		Network.InitializeServer(4, 25000, !Network.HavePublicAddress());
 		MasterServer.RegisterHost(typeName, gameName);
 	}
@@ -28,6 +30,7 @@ public class NetworkManager : MonoBehaviour {
 	void OnServerInitialized()
 	{
 		Debug.Log("Server Initializied");
+		SpawnPlayer();
 	}
 
 	void OnGUI()
@@ -77,5 +80,11 @@ public class NetworkManager : MonoBehaviour {
 	void OnConnectedToServer()
 	{
 		Debug.Log("Server Joined");
+		SpawnPlayer();
+	}
+	
+	private void SpawnPlayer()
+	{
+		Network.Instantiate(playerPrefab, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
 	}
 }
