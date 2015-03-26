@@ -17,10 +17,12 @@
 [Rr]eleases/
 x64/
 x86/
-build/
+[Bb]uild/
 bld/
 [Bb]in/
 [Oo]bj/
+[Tt]emp/
+[Ll]ibrary/
 
 # Visual Studo 2015 cache/options directory
 .vs/
@@ -62,6 +64,15 @@ dlldata.c
 *.pidb
 *.svclog
 *.scc
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
 
 # Chutzpah Test files
 _Chutzpah*
@@ -194,3 +205,9 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
