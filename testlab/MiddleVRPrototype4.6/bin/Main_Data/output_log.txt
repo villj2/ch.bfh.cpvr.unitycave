@@ -27,7 +27,7 @@ Loading D:\Development\GitHub\ch.bfh.cpvr.unitycave\testlab\MiddleVRPrototype4.6
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 Platform assembly: D:\Development\GitHub\ch.bfh.cpvr.unitycave\testlab\MiddleVRPrototype4.6\bin\Main_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Development\GitHub\ch.bfh.cpvr.unitycave\testlab\MiddleVRPrototype4.6\bin\Main_Data\Managed\System.dll (this message is harmless)
-[ ] 2015-03-26--19-03-49
+[ ] 2015-03-26--22-03-48
 [ ] Changed LogLevel to 2.
 [ ] PATH = 'C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\X-Rite\Devices\Services;C:\Program Files (x86)\X-Rite\Devices\Lib;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MiddleVR\bin;C:\Program Files (x86)\MiddleVR\bin64'.
 [>] Initializing MiddleVR Build 1.6.0.f4 (Gisele) [ef59da1-201503091552].
@@ -75,12 +75,12 @@ Number of detected logical processors: 8.
 [>] Loading config file: 'D:\Development\GitHub\ch.bfh.cpvr.unitycave\testlab\MiddleVRPrototype4.6\MiddleVRConfig\CAVE.vrx'.
 [ ] Changed LogLevel to 2.
 [ ] Configuration version: 1.6.0
+[~] Couldn't find object 'Mouse.Buttons' to set property 'Buttons' of object 'Wand0' [Wand].
 [ ] Set world scale to: 1.
 [~] Couldn't find object 'TrackerSimulatorMouse0.Tracker' to set property 'Tracker' of object 'VRSystemCenterNode' [Node3D].
-[+] Added MouseTracker script.
-[+] Added script 'TrackerSimulatorMouse' named 'TrackerSimulatorMouse0'.
 [<] Successfully finished reading 'D:\Development\GitHub\ch.bfh.cpvr.unitycave\testlab\MiddleVRPrototype4.6\MiddleVRConfig\CAVE.vrx'.
-[+] Finally found object 'TrackerSimulatorMouse0.Tracker' to set property 'Tracker' of object 'VRSystemCenterNode' [Node3D].
+[~] Couldn't find object 'Mouse.Buttons' to set property 'Buttons' of object 'Wand0' [Wand].
+[~] Couldn't find object 'TrackerSimulatorMouse0.Tracker' to set property 'Tracker' of object 'VRSystemCenterNode' [Node3D].
 
 === System dump ===
 
@@ -95,7 +95,7 @@ Number of detected logical processors: 8.
 
 == Nodes ==
 + None [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
-  + VRSystemCenterNode [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. Tracker: 'TrackerSimulatorMouse0.Tracker'
+  + VRSystemCenterNode [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
     + HandNode [Node3D] : L: 0.1,0.1,-0.1. Y: -0, P: 0, R: -0. No tracker.
     + HeadNode [Node3D] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
       + Camera0 [Camera] : L: 0,0,0. Y: -0, P: 0, R: -0. No tracker.
@@ -106,23 +106,18 @@ Number of detected logical processors: 8.
 
 == Device Manager ==
 
- - Nb devices : 4
-  - Keyboard [ Keyboard ] from DirectInput Driver
-  - Mouse [ Mouse ] from DirectInput Driver
+ - Nb devices : 1
   - Wand0 [ Wand ] 
-  - TrackerSimulatorMouse0.Tracker [ Tracker ] 
 
- - Nb drivers : 1
-  - DirectInput Driver
+ - Nb drivers : 0
 
 == Wand : Wand0 == 
 
  - Axis : Undefined.
- - Buttons : Mouse.Buttons.
+ - Buttons : Undefined.
 
 == Scripts ==
 
- - TrackerSimulatorMouse0 [TrackerSimulatorMouse]
 
 == Cluster : SoftSwapLock: ON. NVidiaSwapLock: OFF. ForceOpenGLConversion: OFF. DisableVSyncOnServer: ON. 
 
@@ -146,16 +141,28 @@ Platform assembly: D:\Development\GitHub\ch.bfh.cpvr.unitycave\testlab\MiddleVRP
 [ ] Navigation Elastic deactivated.
 [ ] Manipulation Homer deactivated.
 [ ] Virtual Hand Gogo deactivated.
-[~] vrWand::IsButtonToggled: button index out of buttons array.
+[~] vrWand::IsButtonToggled: no buttons defined.
 [+] AttachToNode: VRWand attached to : HandNode
+[X] No VR keyboard
 [ ] Hiding mouse cursor.
 [>] Set window geometry... 
 [ ]  ... to: 1920x1200 (0 + 0)
 [<] Set window geometry done. 
-[ ] FPS: 0.647375
+[ ] FPS: 0.678397
 [ ] If the application is stuck here and you're using Quad-buffer active stereoscopy, make sure that in the Player Settings of Unity, the option 'Run in Background' is checked.
-[ ] FPS: 887.944
-[ ] FPS: 944.611
-[ ] Unity says we're quitting.
-[ ] Quitting after 4.32048 seconds and 2047 frames.
+[ ] FPS: 859.272
+[ ] FPS: 921.093
+[ ] FPS: 758.972
+[ ] FPS: 743.907
+[ ] FPS: 873.203
+[ ] FPS: 929.048
+[ ] FPS: 826.881
+[ ] FPS: 920.906
+[ ] FPS: 918.429
+[ ] FPS: 927.178
+[ ] FPS: 905.897
+[ ] FPS: 922.664
+[ ] FPS: 921.413
+[ ] FPS: 905.4
+[ ] Quitting after 16.361 seconds and 12753 frames.
 [<] Shutting down MiddleVR.
