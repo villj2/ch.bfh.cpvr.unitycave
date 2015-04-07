@@ -1,0 +1,32 @@
+Hallo zusammen
+
+Hier noch die ergänzenden Informationen zum CAVE:
+
+Die CAVE Infrastruktur besteht aus zwei Racks mit je 4 sogenannten dedizierten Render Stations (hostnames: rs1, ...rs8) [RS]. 
+Diese RS sind jeweils für einen Beamer "verantwortlich", schicken also die gerenderten Informationen an
+die entsprechenden Projektoren (via DVI-Switch). Zudem ist ein KVM-Switch für die Sys. Administration vorhanden.
+
+GPU der RS: GeForce GTX 480 (siehe http://en.wikipedia.org/wiki/GeForce_400_series)
+CPU der RS: i7-950 (siehe http://ark.intel.com/products/37150)
+
+Als OS dient Windows 7 (ab einer internen SSD). Jedoch ist eine Dualboot Konfiguration 
+möglich (ab einer zweiten auswechselbaren SSD). Im Moment ist dort zu Testzwecken Ubuntu 14.10 installiert.
+Die Ubuntu Installation kann jedoch nicht als OS für das verteilte Rendering verwendet werden.
+
+Als zentrale Einheit dient ein Cave Server (hostname: cs0) [CS], welcher die Verteilung des Renderings anstösst.
+
+Es gibt momentan ein Projekt, zwei ehemalige, ebenfalls im Rack befindliche Multi-GPU Server (cs1, cs2) 
+als Sensor Server für Kinect Endgeräte (Kinect v1, Kinect v2) zu verwenden resp. so zu modifizieren, dass 
+ein SLI-Rendering möglich ist.
+
+Die CS und RS sind hinter einer Firewall (NAT) in einem Subnetz (ehemals Klasse C) zusammengefasst.
+
+Aktuell ist der CAVE leider defekt, da drei Projektoren in Reparatur sind. Wann und ob diese geflickt werden,
+ist nicht bekannt. Man kann jedoch sicher Versuche mit den verbleibenden Projektoren durchführen.
+
+Ich hoffe, diese Angaben genügen euch fürs Erste.
+
+Am einfachsten kommt ihr mal vorbei, damit wir den CAVE anschauen können.
+
+Beste Grüsse & Viel Erfolg
+Peter
