@@ -1,6 +1,7 @@
 ﻿Shader "Custom/chess" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
+		_Color ("Text Color", Color) = (1,0,0,1) 
 	}
     SubShader {
         Pass {
