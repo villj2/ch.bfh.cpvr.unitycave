@@ -2,6 +2,9 @@ private var motor : CharacterMotor;
 
 // Use this for initialization
 function Awake () {
+
+	PlayerPrefs.DeleteAll();
+
 	motor = GetComponent(CharacterMotor);
 }
 
