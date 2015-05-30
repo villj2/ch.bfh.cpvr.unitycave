@@ -1,0 +1,50 @@
+﻿Unity CAVE Präsi
+
+
+
+Inversini:
+
+- Aufgabenstellung
+
+	- Vorteile von Unity / CAVE (GameDev Modul, superschnelle und einfache Implementierung von Games)
+
+- Voranalyse:
+
+	- Varianten (Equalizer / MiddleVR / Chromium / Eigene Lösung)
+
+	- Gegenüberstellung (Vorteile / Nachteile)
+
+	- Entscheid MiddleVR / Eigene Lösung
+
+
+
+Villiger:
+
+- Ausgangslage Prototyping
+
+	- Graphik 4 Varianten (Vor- / Nachteile Single- / Multinstanz)
+
+		- Multi-GPU
+
+		- Clustering
+
+		- Mosaic
+
+		- GeForces
+
+	- Prototyping im CAVE
+
+	- CAVE: 4 Beamer, Clients aufsetzen, ...
+- Auswertung (Erkenntnisse)
+
+	- Tabelle
+
+	- Performance
+
+- Finaler Entscheid
+
+
+
+Inversini:
+
+- Nächste Schritte (Während Semesterferien HW beschaffen)
